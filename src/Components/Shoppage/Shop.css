@@ -1,0 +1,68 @@
+.Shop_banner
+{
+    width: inherit;
+    height: 250px;
+    background-color:#f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.Shop_results
+{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.Shop_banner_text
+{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+.containers
+{
+    width:100vw;
+}
+.shop_col
+{
+  
+    margin-left: 5px;
+    width:auto;
+
+}
+.shop_col2
+{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+.Shop_cat_ul
+{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+.Cate_h-text
+{
+    background-color:#f8f9fa;
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cols
+{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 2vw;
+    box-shadow:3px 3px 5px 6px #ccc;
+    margin: 10px; 
+}
+.cols:hover
+{
+    transform: scale(1.1);
+}

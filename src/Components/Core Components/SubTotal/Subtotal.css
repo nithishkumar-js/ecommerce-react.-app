@@ -1,0 +1,30 @@
+.checkout_subtotal
+{
+    width:300px;
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow:3px 3px 5px 6px #ccc;
+    margin-top: 20px;
+    float: right;
+}
+
+.checkout_Product_btn
+{
+    width:200px;
+    border-style: none;
+    background-color:black;
+    padding:10px;
+    color: white;
+}
+.checkout_Product_btn:hover
+{
+    background-color:white;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
