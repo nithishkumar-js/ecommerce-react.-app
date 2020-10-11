@@ -16,12 +16,14 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
 }
 .product_image
 {
     width:200px;
     height:200px;
     object-fit: contain;
+    object-position: center;
 }
 .Product_btn
 {

@@ -25,10 +25,12 @@ function Cart()
                        </div>
             {
                 basket.length === 0 ? (
-                    <div className="Cart_empty">
-                    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_nl9M_exbaJFJv0tsRcn4LxCm-agS6G-Ehg&usqp=CAU' alt="empty" className="Empty_cart"/>
+                    <div className="Cart_empty col-sm">
+                    <div className="Col-sm text">
+                    <img className="Empty_cart" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_nl9M_exbaJFJv0tsRcn4LxCm-agS6G-Ehg&usqp=CAU" alt="images" width="300" height="300"/>
                     <h1>Your Shopping basket is empty</h1>
                     <h6>You have no items in your basket. To buy one or more items, click "Add to basket" next to the item.</h6>
+                    </div>
                 </div>
                 ):
                 (

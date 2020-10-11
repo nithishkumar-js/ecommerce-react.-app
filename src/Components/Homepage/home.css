@@ -3,14 +3,18 @@
     width:inherit;
     height:450px;
     background:url('../Core Components//img/hero-banner-alt.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     margin-top:30px;
 }
 
 .banner_text
 {
-padding-left: 70px;
-padding-top: 120px;
+display: flex;
+flex-direction: column;
+padding-top: 100px;
+padding-left: 20px;
 }
 
 .Banner_text1
@@ -61,7 +65,9 @@ padding-top: 120px;
     width:inherit;
     height:600px;
     background: url('../Core Components/img//cat-img-1.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding-top: 300px;
     padding-bottom:250px;
     margin-bottom: 30px;
@@ -73,7 +79,9 @@ padding-top: 120px;
     width:inherit;
     height:600px;
     background: url('../Core Components/img/cat-img-3.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding-top: 300px;
     padding-bottom:250px;
     margin-bottom: 30px;
@@ -85,7 +93,9 @@ padding-top: 120px;
     width:inherit;
     height:600px;
     background: url('../Core Components/img//cat-img-4.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding-top:300px;
     padding-bottom:250px;
     margin-bottom: 30px;
@@ -94,10 +104,12 @@ padding-top: 120px;
 }
 .Home_category_prod2_1
 {
-    width:370px;
+    width:inherit;
     height:285px;
     background: url('../Core Components/img//cat-img-2.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding-top: 120px;
     padding-bottom: 120px;
     margin-bottom: 30px;
@@ -105,10 +117,12 @@ padding-top: 120px;
     justify-content: center;
 }
 .Home_category_prod2_2{
-    width:370px;
+    width:inherit;
     height:285px;
     background: url('../Core Components/img/cat-img-3.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     margin-bottom: 30px;
     display: flex;
     padding-top: 120px;
